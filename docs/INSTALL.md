@@ -12,13 +12,13 @@
 ## Configure IDE for specific hardware
 1. In the Get Started section, select "All Products" and type BRD4546A into the search menu. Select the top result and press "Start". This should import the correct board.
 2. The board only works with an older version of the SDK. To install it select "Install" in the top left, then "Manage installed packages".
-<img src="images/install-button.png" width="1200"/>
+<img src="images/install-button.png" width="1400"/>
 
 3. Select the SDKs tab, then "Install All" for the Gecko SDK 3.0. After the installation is complete, close windows until you get back to the board information.
 4. In "General Information" select Manage SDKs, uncheck the Gecko SDK Suite with version 4.0.2, then select "Apply and close".
-<img src="images/manage-sdks.png" width="1200"/>
+<img src="images/manage-sdks.png" width="1400"/>
 
-5. The prefered SDK should now be Gecko SDK Suite v3.0.2. If so, you should now be able to create new projects from examples with out issues.
+5. The "Prefered SDK" should now be Gecko SDK Suite v3.0.2. If so, you should now be able to create new projects from examples with out issues.
 
 ## Configure IDE for Git
 The IDE is based on Eclipse, but git integration is not included by default. By using the IDE integration, the .gitignore is generated automatically as different builds are done.
